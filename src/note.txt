@@ -1,0 +1,37 @@
+lazy loading technique
+
+-module creation 
+ 
+          ng g module moduleName
+
+-lazy loaded module creation
+
+          ng g module moduleName  --route moduleName  --module rootmoduleName
+
+-To Install Json Server
+ 
+          npm i --save json -server
+
+-To Run Json Server 
+
+          npx json -server --watch db.json --port 3000
+
+          hockey   -1
+          cricket  -2
+          football -3
+
+
+Access Data from component path
+-------------------------------
+
+ActivatedRoute    - class
+params            -method
+
+
+ng g pipe pipe_name
+
+
+BehaviourSubject in angular
+---------------------------
+
+rxjs
